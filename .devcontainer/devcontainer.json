@@ -2,19 +2,8 @@
 	"name": "Dagger Examples",
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
 	"features": {
-		"ghcr.io/devcontainers/features/go:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/node:1": {
-			"nodeGypDependencies": true,
-			"version": "lts"
-		},
-		"ghcr.io/devcontainers/features/python:1": {
-			"installTools": true,
-			"version": "latest"
-		},
-    	"ghcr.io/metcalfc/dagger-devcontainer-feature/dagger:latest": {
-			"completion": true
+        "ghcr.io/metcalfc/dagger-devcontainer-feature/dagger:latest": {
+            "completion": true
 		}
 	}
 }
